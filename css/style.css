@@ -214,4 +214,12 @@ body {
 	.home-content p {
 		padding-bottom: 0;
 	}
+
+	.homepage-btn {
+		transition: background-color 0.5s;	
+	}
+
+	.homepage-btn:hover {
+		background-color: #295C66;
+	}
 }

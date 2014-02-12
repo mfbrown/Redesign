@@ -6,7 +6,6 @@ h1 {
 	color: #BAD3D8;
 	font-size: 4.5rem;
 	margin-bottom: 0;
-
 }
 
 h3 {
@@ -51,7 +50,6 @@ body {
 	height: inherit;
 	width: 100%;
 	background-color: #ececec;
-
 }
 
 .top-bar {
@@ -59,7 +57,7 @@ body {
 	height: 50px;
 	color: black;
 	background-color: rgba(0,0,0,0);
-	}
+}
 
 .clear-top {
 	margin-top: 0;
@@ -183,7 +181,6 @@ body {
 		text-align: left;
 		padding-top: 0;
 		margin: 0 0 0 20px;
-
 	}
 
 	.rwd-break {
@@ -215,6 +212,10 @@ body {
 	}
 
 	.homepage-btn {
+		-webkit-transition: background-color 0.5s;
+		-moz-transition: background-color 0.5s;
+		-o-transition: background-color 0.5s;
+		-ms-transition: background-color 0.5s;
 		transition: background-color 0.5s;	
 	}
 
